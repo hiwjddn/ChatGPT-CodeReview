@@ -25,7 +25,7 @@ export class Chat {
 
     const prompt =
       process.env.PROMPT ||
-        'Below is a code patch, please help me do a brief code review on it. Any bug risks and/or improvement suggestions are welcome:';
+        '안녕하세요라고 말해봐';
 
     return `${prompt}, ${answerLanguage}:
     ${patch}
